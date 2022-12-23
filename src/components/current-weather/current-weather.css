@@ -4,7 +4,11 @@
   border: 0.2px #fff solid;
   box-shadow: 10px -2px 20px 2px rgb(0 0 0 /5%);
   color: #4c4c4c;
-  background-color: rgba(255, 255, 255, 0.097);
+  /* background-color: rgba(255, 255, 255, 0.097); */
+  background-image: url(../../assets/images/card.png);
+  /* height: 500px; */
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 20px auto 0 auto;
   padding: 0 20px 20px 20px;
 }
@@ -32,6 +36,7 @@
 
 .weather-icon {
   width: 100px;
+
 }
 
 .temperature {
