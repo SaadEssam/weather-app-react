@@ -13,7 +13,10 @@
   cursor: pointer;
   font-size: 14px;
   padding: 5px 20px;
-
+  border: 0.2px #fff solid;
+  background-image: url(../../assets/images/card.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .icon-small {
@@ -47,6 +50,12 @@
   grid-template-columns: auto auto;
   padding: 5px 15px;
 
+  border-radius: 15px;
+  border: 0.2px #fff solid;
+  background-image: url(../../assets/images/card.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .daily-details-grid-item {
@@ -57,9 +66,9 @@
 }
 
 .daily-details-grid-item label:first-child {
-  color: #757575;
+  color: #212121;
 }
 
 .daily-details-grid-item label:last-child {
-  color: #212121;
+  color: #757575;
 }

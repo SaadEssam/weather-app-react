@@ -11,7 +11,7 @@ const Forecast = ({props}) => {
     <>
       <label className="title">Daily</label>
       <Accordion allowZeroExpanded>
-        {props.list.splice(0, 7).map((item, index) => (
+        {props.list.slice(0, 7).map((item, index) => (
           <AccordionItem key={index}>
             <AccordionItemHeading>
               <AccordionItemButton>
@@ -19,7 +19,7 @@ const Forecast = ({props}) => {
                   <img alt="weather" className="icon-small" src={`icons/${item.weather[0].icon}.png`} />
                   <label className="day">{forecastDays[index]}</label>
                   <label className="description">{item.weather[0].description}</label>
-                  <label className="min-max">{Math.round(item.main.temp_min)}°C / {Math.round(item.main.temp_max)} °C</label>
+                  <label className="min-max">L:{Math.round(item.main.temp_min)}°C / H:{Math.round(item.main.temp_max)} °C</label>
                 </div>
               </AccordionItemButton>
             </AccordionItemHeading>
