@@ -4,7 +4,6 @@
 https://user-images.githubusercontent.com/77013858/209441312-a23a45e2-3c33-4b56-b221-d4f844db0035.mp4
 
 
-
 ## Screenshot
 ![](https://github.com/SaadEssam/weather-app-react/blob/main/Screenshot.png)
 
