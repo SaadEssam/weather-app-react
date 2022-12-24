@@ -6,6 +6,8 @@ https://user-images.githubusercontent.com/77013858/209441312-a23a45e2-3c33-4b56-
 
 
 ## Screenshot
+![](https://github.com/SaadEssam/weather-app-react/blob/main/Screenshot.png)
+
 
 
 # Getting Started with Create React App
